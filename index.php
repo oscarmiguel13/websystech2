@@ -10,5 +10,11 @@
 </head>
 <body>
     <?Php echo "hello world"; ?>
+    <?Php
+        $a = 5;
+        $b = 10;
+        $c = $a + $b;
+        echo "The sum is ".$c
+    ?>
 </body>
 </html>
